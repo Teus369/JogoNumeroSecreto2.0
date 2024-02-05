@@ -11,7 +11,8 @@ let tentativas = 1;
 function exibirTextonaTela (tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
+    // responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
+    // esse codigo faz o texto falar
 }
 function exibirMensagemInicial() {
     exibirTextonaTela('h1', 'Jogo do Numero Secreto')
